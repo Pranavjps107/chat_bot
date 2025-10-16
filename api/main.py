@@ -10,6 +10,10 @@ from pathlib import Path
 import asyncio
 from datetime import datetime
 from contextlib import asynccontextmanager
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # <-- loads the .env file
 
 # Import our modules
 import sys
